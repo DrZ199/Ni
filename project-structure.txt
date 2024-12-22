@@ -1,0 +1,18 @@
+nelsonbot/
+├── pages/
+│   ├── index.js
+│   ├── api/
+│   │   └── nelsonbot.js
+├── styles/
+│   └── globals.css
+├── components/
+│   └── navigation.js
+├── public/
+│   └── favicon.ico
+├── .env
+├── tailwind.config.js
+├── postcss.config.js
+├── next.config.js
+├── package.json
+└── README.md
+
