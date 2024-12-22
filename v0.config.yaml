@@ -1,0 +1,14 @@
+name: NelsonBot
+version: 1
+frontend:
+  source: ./frontend
+  framework: nextjs
+backend:
+  source: ./backend
+  runtime: nodejs
+env:
+  - HUGGINGFACE_API_KEY
+routes:
+  - path: /api/chat
+    handler: backend/nelsonbot.js
+
